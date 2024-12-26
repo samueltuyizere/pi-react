@@ -1,0 +1,32 @@
+{
+  "name": "pi-react",
+  "version": "0.0.1",
+  "description": "A React library for integrating the Pi SDK into React projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --max-warnings 0"
+  },
+  "keywords": [
+    "pi-network",
+    "react",
+    "pi-sdk"
+  ],
+  "author": "Samuel Tuyizere",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^4.9.0"
+  }
+}
