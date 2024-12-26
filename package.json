@@ -1,6 +1,6 @@
 {
   "name": "pi-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React library for integrating the Pi SDK into React projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
