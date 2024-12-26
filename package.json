@@ -4,6 +4,10 @@
   "description": "A React library for integrating the Pi SDK into React projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/samueltuyizere/pi-react.git"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --max-warnings 0"
@@ -28,5 +32,12 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "prettier": "^3.4.2",
     "typescript": "^4.9.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/samueltuyizere/pi-react/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/samueltuyizere/pi-react#readme"
 }
